@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 19px;
+}
+
+.timetable-table .table-header-group {
+  @apply bg-slate-200;
+}
+
+.timetable-table .table-cell {
+  @apply border-b border-r border-black;
+}
+
+.timetable-table .table-header-group .table-row > .invisible {
+  @apply border-none;
+}
